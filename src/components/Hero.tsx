@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 export const Hero = () => {
   const [displayText, setDisplayText] = useState("");
-  const fullText = "AI Developer & Creative Technologist";
+  const fullText = "Backend Developer & AI Integration Specialist";
   
   useEffect(() => {
     let index = 0;
@@ -84,8 +84,8 @@ export const Hero = () => {
             transition={{ delay: 1.1 }}
             className="text-lg md:text-xl text-foreground/70 max-w-2xl mx-auto mb-12"
           >
-            Crafting intelligent solutions at the intersection of artificial intelligence and creative technology.
-            Transforming ideas into reality through code, design, and innovation.
+            Building robust REST APIs and AI-powered web applications with Python, Flask, and modern JavaScript frameworks.
+            Passionate about solving complex problems and creating innovative backend solutions.
           </motion.p>
 
           <motion.div

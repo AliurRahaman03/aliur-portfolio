@@ -13,40 +13,31 @@ import {
 
 const projects = [
   {
-    title: "AI Content Generator",
-    description: "Full-stack application leveraging GPT-4 for automated content creation with custom prompts and style templates.",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
-    tags: ["React", "Python", "OpenAI", "Flask"],
-    github: "#",
-    demo: "#",
-    longDescription: "A sophisticated AI-powered content generation platform that helps businesses and creators produce high-quality written content. Features include customizable tone, style templates, SEO optimization, and multi-language support.",
+    title: "Skill Mentor",
+    description: "AI-Driven Skill Analysis & Learning Roadmap Web App integrating OpenAI API for personalized career roadmap generation.",
+    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80",
+    tags: ["Python", "Flask", "OpenAI API", "SQLAlchemy", "Jinja2"],
+    github: "https://github.com/AliurRahaman03/Skill_Mentor",
+    demo: "https://skill-mentor-p1fa.onrender.com",
+    longDescription: "Architected and developed a full-stack Flask application integrating OpenAI API for personalized career roadmap generation. Implemented modular architecture using Flask Blueprints, SQLAlchemy ORM for data management. Built secure user authentication system and database integration using Flask-SQLAlchemy and Flask-Migrate. Designed RESTful API endpoints for skill assessment and AI-driven learning recommendations. Deployed and maintained production environment on Render.com.",
   },
   {
-    title: "Smart Dashboard Analytics",
-    description: "Real-time analytics dashboard with AI-powered insights and predictive visualizations for business intelligence.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-    tags: ["TypeScript", "D3.js", "Machine Learning", "React"],
-    github: "#",
+    title: "Nutrition Tracker",
+    description: "Full-stack MERN application to track meals and calories with JWT authentication and role-based access control.",
+    image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
+    tags: ["MongoDB", "Express.js", "React", "Node.js", "JWT"],
+    github: "https://github.com/aliurrahaman/nutrition-tracker",
     demo: "#",
-    longDescription: "An intelligent analytics platform that transforms raw data into actionable insights. Uses machine learning to predict trends, identify anomalies, and provide automated recommendations for business optimization.",
+    longDescription: "Built a full-stack app to track meals and calories using MongoDB, Express.js, React, and Node.js. Implemented JWT authentication and role-based access control for secure user management. Created RESTful APIs for dynamic data interaction and dashboard updates. Features include meal logging, calorie tracking, nutritional analysis, and personalized health insights.",
   },
   {
-    title: "Creative Portfolio Builder",
-    description: "Interactive portfolio creation tool with drag-and-drop interface and animated transitions for designers and developers.",
-    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&q=80",
-    tags: ["React", "Framer Motion", "TailwindCSS", "Firebase"],
-    github: "#",
+    title: "To-Do App",
+    description: "Task management web application built with Flask and SQLite3 featuring CRUD operations and responsive design.",
+    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&q=80",
+    tags: ["Flask", "SQLite3", "Bootstrap", "Jinja2", "SQLAlchemy"],
+    github: "https://github.com/AliurRahaman03/Flask-To-Do-App",
     demo: "#",
-    longDescription: "A no-code platform that empowers creatives to build stunning portfolio websites. Features real-time collaboration, custom animations, responsive templates, and seamless deployment.",
-  },
-  {
-    title: "Voice-Controlled Assistant",
-    description: "AI assistant with natural language processing and voice recognition for hands-free task automation.",
-    image: "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=800&q=80",
-    tags: ["Python", "NLP", "Speech Recognition", "FastAPI"],
-    github: "#",
-    demo: "#",
-    longDescription: "An intelligent voice assistant that understands context, learns from user interactions, and integrates with multiple services. Supports multi-language commands and offers personalized automation workflows.",
+    longDescription: "Developed a task management web app using Flask and SQLite3 with full CRUD functionality. Implemented database operations via SQLAlchemy ORM and Flask routes for efficient task handling. Used Bootstrap and Jinja2 templating for responsive, mobile-friendly design. Managed the entire project workflow with Git in a Python virtual environment, demonstrating best practices in Flask development.",
   },
 ];
 
@@ -204,7 +195,7 @@ export const Projects = () => {
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A showcase of my recent work, combining artificial intelligence, creative design, and modern web technologies.
+            A showcase of my recent work in backend development, AI integration, and full-stack web applications.
           </p>
         </motion.div>
 

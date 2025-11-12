@@ -4,39 +4,39 @@ import { useRef } from "react";
 
 const skillCategories = [
   {
-    category: "Frontend",
+    category: "Programming & Core",
     skills: [
-      { name: "React / TypeScript", level: 95 },
-      { name: "TailwindCSS", level: 90 },
-      { name: "Framer Motion", level: 85 },
-      { name: "Three.js", level: 75 },
+      { name: "Python", level: 90 },
+      { name: "JavaScript (ES6+)", level: 85 },
+      { name: "C++", level: 75 },
+      { name: "REST APIs", level: 88 },
     ],
   },
   {
-    category: "Backend",
+    category: "Backend & Frameworks",
     skills: [
-      { name: "Python / Flask", level: 90 },
-      { name: "Node.js / Express", level: 85 },
-      { name: "PostgreSQL", level: 80 },
-      { name: "Redis", level: 75 },
+      { name: "Flask", level: 92 },
+      { name: "Node.js / Express.js", level: 85 },
+      { name: "React.js", level: 82 },
+      { name: "JWT Authentication", level: 86 },
     ],
   },
   {
-    category: "AI & ML",
+    category: "Database & ORM",
     skills: [
-      { name: "Prompt Engineering", level: 95 },
-      { name: "OpenAI API", level: 90 },
-      { name: "Natural Language Processing", level: 85 },
-      { name: "Computer Vision", level: 80 },
+      { name: "SQLite3 / SQLAlchemy", level: 88 },
+      { name: "MongoDB", level: 82 },
+      { name: "Database Design", level: 85 },
+      { name: "CRUD Operations", level: 90 },
     ],
   },
   {
-    category: "Tools & Others",
+    category: "Tools & Technologies",
     skills: [
       { name: "Git / GitHub", level: 90 },
-      { name: "Docker", level: 85 },
-      { name: "UI/UX Design", level: 88 },
-      { name: "Figma", level: 82 },
+      { name: "OpenAI API Integration", level: 88 },
+      { name: "Postman / VS Code", level: 85 },
+      { name: "Salesforce Administration", level: 78 },
     ],
   },
 ];

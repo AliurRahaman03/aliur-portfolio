@@ -5,10 +5,10 @@ import { Mail, Github, Linkedin, Twitter, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub", color: "hover:text-[#333] dark:hover:text-white" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn", color: "hover:text-[#0077b5]" },
+  { icon: Github, href: "https://github.com/AliurRahaman03", label: "GitHub", color: "hover:text-[#333] dark:hover:text-white" },
+  { icon: Linkedin, href: "https://linkedin.com/in/aliur-rahaman", label: "LinkedIn", color: "hover:text-[#0077b5]" },
   { icon: Twitter, href: "https://twitter.com", label: "Twitter", color: "hover:text-[#1DA1F2]" },
-  { icon: Mail, href: "mailto:aliur@example.com", label: "Email", color: "hover:text-accent" },
+  { icon: Mail, href: "mailto:aliur8991@gmail.com", label: "Email", color: "hover:text-accent" },
 ];
 
 export const Contact = () => {
@@ -76,7 +76,7 @@ export const Contact = () => {
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-primary to-accent hover:opacity-90 text-white glow-primary mb-8 group"
-                onClick={() => window.location.href = "mailto:aliur@example.com"}
+                onClick={() => window.location.href = "mailto:aliur8991@gmail.com"}
               >
                 <Mail className="w-5 h-5 mr-2 group-hover:animate-bounce" />
                 Send Me an Email

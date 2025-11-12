@@ -6,26 +6,26 @@ import { Code2, Brain, Palette, Rocket } from "lucide-react";
 const skills = [
   {
     icon: Code2,
-    title: "Full-Stack Development",
-    description: "Python, Flask, React, TypeScript",
+    title: "Backend Development",
+    description: "Python, Flask, Node.js, Express.js, REST APIs",
     color: "from-blue-500 to-cyan-500",
   },
   {
     icon: Brain,
     title: "AI Integration",
-    description: "Machine Learning, NLP, Computer Vision",
+    description: "OpenAI API, AI-powered Applications, Prompt Engineering",
     color: "from-purple-500 to-pink-500",
   },
   {
     icon: Palette,
-    title: "Creative Tech",
-    description: "UI/UX, Interactive Experiences, Design Systems",
+    title: "Database & ORM",
+    description: "SQLite3, MongoDB, SQLAlchemy, Data Management",
     color: "from-orange-500 to-red-500",
   },
   {
     icon: Rocket,
-    title: "Prompt Engineering",
-    description: "LLM Optimization, AI Workflows, Automation",
+    title: "Modern Web Stack",
+    description: "React.js, MERN Stack, JWT Authentication, Workflow Automation",
     color: "from-green-500 to-teal-500",
   },
 ];
@@ -95,8 +95,8 @@ export const About = () => {
             About <span className="gradient-text">Me</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            I'm a passionate developer who loves building intelligent, beautiful, and functional applications
-            that push the boundaries of what's possible with technology.
+            Motivated Backend Developer with strong expertise in Python, Flask, and AI integration.
+            Experienced in building REST APIs, managing databases, and developing AI-powered web applications.
           </p>
         </motion.div>
 
