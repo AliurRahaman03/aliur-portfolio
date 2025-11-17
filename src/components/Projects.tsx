@@ -36,7 +36,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&q=80",
     tags: ["Flask", "SQLite3", "Bootstrap", "Jinja2", "SQLAlchemy"],
     github: "https://github.com/AliurRahaman03/Flask-To-Do-App",
-    demo: "#",
+    demo: "https://flask-to-do-app-c3h2.onrender.com",
     longDescription: "Developed a task management web app using Flask and SQLite3 with full CRUD functionality. Implemented database operations via SQLAlchemy ORM and Flask routes for efficient task handling. Used Bootstrap and Jinja2 templating for responsive, mobile-friendly design. Managed the entire project workflow with Git in a Python virtual environment, demonstrating best practices in Flask development.",
   },
 ];
