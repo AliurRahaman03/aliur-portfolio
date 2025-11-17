@@ -27,7 +27,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
     tags: ["MongoDB", "Express.js", "React", "Node.js", "JWT"],
     github: "https://github.com/aliurrahaman/nutrition-tracker",
-    demo: "#",
+    demo: "https://nutrition-tracker-complete-app.vercel.app/",
     longDescription: "Built a full-stack app to track meals and calories using MongoDB, Express.js, React, and Node.js. Implemented JWT authentication and role-based access control for secure user management. Created RESTful APIs for dynamic data interaction and dashboard updates. Features include meal logging, calorie tracking, nutritional analysis, and personalized health insights.",
   },
   {
